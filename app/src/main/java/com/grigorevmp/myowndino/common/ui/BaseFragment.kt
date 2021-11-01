@@ -1,4 +1,4 @@
-package com.grigorevmp.myowndino
+package com.grigorevmp.myowndino.common.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater

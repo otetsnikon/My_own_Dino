@@ -1,4 +1,4 @@
-package com.grigorevmp.myowndino
+package com.grigorevmp.myowndino.common.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,6 +7,7 @@ import androidx.navigation.Navigation
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
+import com.grigorevmp.myowndino.R
 import com.grigorevmp.myowndino.databinding.ActivityMainBinding
 
 private lateinit var binding: ActivityMainBinding

@@ -6,21 +6,21 @@
 
     <fragment
             android:id="@+id/profile_fragment"
-            android:name="com.grigorevmp.myowndino.ProfileFragment"
+            android:name="com.grigorevmp.myowndino.profile.ProfileFragment"
             tools:layout="@layout/navigation_profile_fragment">
 
     </fragment>
 
     <fragment
             android:id="@+id/game_fragment"
-        android:name="com.grigorevmp.myowndino.GameFragment"
+        android:name="com.grigorevmp.myowndino.game.GameFragment"
             tools:layout="@layout/navigation_game_fragment">
 
     </fragment>
 
     <fragment
             android:id="@+id/shop_fragment"
-        android:name="com.grigorevmp.myowndino.ShopFragment"
+        android:name="com.grigorevmp.myowndino.shop.ShopFragment"
             tools:layout="@layout/navigation_shop_fragment">
 
     </fragment>

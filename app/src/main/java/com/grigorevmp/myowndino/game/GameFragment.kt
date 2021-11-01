@@ -1,7 +1,8 @@
-package com.grigorevmp.myowndino
+package com.grigorevmp.myowndino.game
 
 import android.os.Bundle
 import android.view.View
+import com.grigorevmp.myowndino.common.ui.BaseFragment
 import com.grigorevmp.myowndino.databinding.NavigationGameFragmentBinding
 
 class GameFragment :
