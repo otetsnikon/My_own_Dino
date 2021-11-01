@@ -1,0 +1,29 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/navigation"
+        app:startDestination="@id/game_fragment">
+
+    <fragment
+            android:id="@+id/profile_fragment"
+            android:name="com.grigorevmp.myowndino.ProfileFragment"
+            tools:layout="@layout/navigation_profile_fragment">
+
+    </fragment>
+
+    <fragment
+            android:id="@+id/game_fragment"
+        android:name="com.grigorevmp.myowndino.GameFragment"
+            tools:layout="@layout/navigation_game_fragment">
+
+    </fragment>
+
+    <fragment
+            android:id="@+id/shop_fragment"
+        android:name="com.grigorevmp.myowndino.ShopFragment"
+            tools:layout="@layout/navigation_shop_fragment">
+
+    </fragment>
+
+
+</navigation>
